@@ -5,8 +5,9 @@ public class HelloMiddleEarth {
         
         String[] names = { "Bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf"};
         
-        for(int i = 0; i < names.length; i++) {
-            System.out.println("Hello %s!\n" + names[i]);
+        //prints the names of the people from middle earth
+        for(String name : names) {
+            System.out.println("Hello %s!\n" + names);
         }
 
     }
